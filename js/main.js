@@ -15,7 +15,7 @@ window.addEventListener("load",function(){
         divHijo.classList.add("w-message-text");
         divTiempo.classList.add("time");
 
-        conversacion.appendChild(div1);
+        conversacion.appendChild(divPadre);
         divPadre.appendChild(divHijo);
         divHijo.appendChild(pMensaje);
         divHijo.appendChild(divTiempo);
