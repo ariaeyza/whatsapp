@@ -8,7 +8,7 @@ window.addEventListener("load",function(){
         var div3 = document.createElement("div");
         var p = document.createElement("p");
 
-        div1.classList.add("w-massage","w-message-out");
+        div1.classList.add("w-message","w-message-out");
         div2.classList.add("w-message-text");
         div3.classList.add("time");
 
